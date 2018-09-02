@@ -20,3 +20,26 @@
 #    through all the commands you need to write. 
 #
 #    Keep it as simple as you can.
+
+
+widthbox = 32
+lengthbox = 43
+heightbox = 22.1
+width = 5
+length = 7.4
+height = 4
+
+#32/ 5 = 6
+#43/ 7.4 = 5
+#22 / 4 = 
+
+
+totalwidth= (widthbox / width).to_i
+
+totallength= (lengthbox / length).to_i
+
+totalheight= (heightbox / height).to_i
+
+totalbox= (totalwidth) * (totallength) * (totalheight).to_i
+
+puts "The total phones that fit in the box are: #{totalbox}"
