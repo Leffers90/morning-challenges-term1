@@ -14,10 +14,17 @@
 # ruby tests/05_count_letters_test.rb
 #
 
+
 def count_letters (string)
   result = {} # You'll need an empty hash to get started!
-  
-  # Your code here
-
-  result # return the hash
+  string.each_char do |letter|
+    if result.keys.include?(letter)
+      result[letter] += 1
+    else
+      result[letter] = 1
+    end
+  end
+  result
 end
+
+puts count_letters ("hello")
