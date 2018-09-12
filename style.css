@@ -1,0 +1,40 @@
+body {
+    background-color: yellow;
+}
+
+p {
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-language-override: inherit;
+    font-weight: bolder;
+}
+
+a {
+    color:  red;
+}
+
+li {
+    color: pink;
+}
+
+li {
+   background-color: black;
+}
+
+h1 {
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 300%;
+}
+
+ol ul li:nth-child(2) {
+    color: yellow;
+}
+
+#list1 {
+    background-color: purple;
+}
+
+.p2 {
+    background-color: white;
+}
