@@ -16,5 +16,10 @@
 #
 
 def in_array (needle, haystack)
-  haystack.include? "needle"
+  haystack.include? needle
 end
+
+in_array("hello", ["hi", "howdy", "hello"]) 
+#should return true
+in_array("drake", ["jayz", "kanye", "yachty"])
+#should return true
