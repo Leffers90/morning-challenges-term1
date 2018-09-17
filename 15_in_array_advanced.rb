@@ -21,5 +21,20 @@
 
 def in_array_advanced (needle, haystack, strict)
   # Your code here
-  
+  if strict
+    for item in haystack
+      if item == needle
+        return true
+      end
+    end
+  else
+    for item in haystack
+      if item.downcase == needle.downcase
+        return true
+      end
+    end
+  end
+  return false
 end
+
+for item in haystack do item == needle 
