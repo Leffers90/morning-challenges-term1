@@ -18,6 +18,18 @@
 # ruby tests/09_unique_test.rb
 #
 
+
 def unique (mylist)
   # Your code here
+  keys_hash = {}
+  for item in mylist do
+    keys_hash[item] = (keys_hash[item] || 0) + 1
+  end
+  unique_array = []
+  for k, v in keys_hash do
+    unique_array << k
+  end
+  return unique_array
+  # return keys_hash.keys
 end
+
