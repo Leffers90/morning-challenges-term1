@@ -20,6 +20,7 @@
 # ruby tests/10_dictionary_test.rb
 #
 
+<<<<<<< HEAD
 class Dictionary(word, definition)
   word_hash = {}
   for word in word_hash do 
@@ -28,3 +29,19 @@ class Dictionary(word, definition)
 Dictionary.total_words
 
 dictionary = dictionary.new
+=======
+class Dictionary
+  def initialize
+    @words = {}      
+  end
+  def add_word(key, val)
+    @words[key] = val
+  end
+  def total_words
+    @words.length
+  end
+  def lookup(key)
+    @words[key]
+  end
+end
+>>>>>>> b028df5d644e116007105a13b9522c8e1282f993

@@ -20,6 +20,7 @@
 
 
 def unique (mylist)
+<<<<<<< HEAD
   # Your code here
   keys_hash = {}
   for item in mylist do
@@ -31,5 +32,10 @@ def unique (mylist)
   end
   return unique_array
   # return keys_hash.keys
+=======
+  hash = {}
+  mylist.each { |x| hash[x] = true }
+  hash.keys
+>>>>>>> b028df5d644e116007105a13b9522c8e1282f993
 end
 

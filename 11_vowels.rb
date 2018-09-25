@@ -14,6 +14,7 @@
 # ruby tests/04_vowels_test.rb
 #
 
+<<<<<<< HEAD
 # puts "Enter a word to check how many vowels it holds"
 # string = gets.chomp
 
@@ -25,3 +26,8 @@ def vowels (string)
   puts vowels_arr
 end
 vowels("Jeremy jumped the gate in a suit")
+=======
+def vowels (string)
+  string.scan(/[aeiou]/i)
+end
+>>>>>>> b028df5d644e116007105a13b9522c8e1282f993

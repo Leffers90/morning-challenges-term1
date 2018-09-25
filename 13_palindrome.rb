@@ -16,5 +16,10 @@
 #
 
 def palindrome (string)
+<<<<<<< HEAD
  string == string.reverse
 end
+=======
+  string == string.reverse
+end
+>>>>>>> b028df5d644e116007105a13b9522c8e1282f993
