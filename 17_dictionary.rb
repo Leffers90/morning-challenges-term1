@@ -20,6 +20,11 @@
 # ruby tests/10_dictionary_test.rb
 #
 
-class Dictionary
-  # Your code here
-end
+class Dictionary(word, definition)
+  word_hash = {}
+  for word in word_hash do 
+    word_hash[word] = (word_hash[word] || 0) + 1
+  end  
+Dictionary.total_words
+
+dictionary = dictionary.new
