@@ -24,5 +24,7 @@
 # # And so on...
 
 class HighScoreTable
-  # your code here
-end
+  def initialize
+    @scores
+  end
+  
